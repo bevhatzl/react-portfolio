@@ -1,5 +1,6 @@
 import React from "react";
 import {HashRouter, NavLink, Link} from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 
 // import "./style.css";
 
@@ -15,9 +16,9 @@ function Header () {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarResponsive">
                                 <ul className="navbar-nav ml-auto">
-                                        <li className="nav-item mx-0 mx-lg-1" data-toggle="collapse" data-target="#navbarResponsive"><NavLink  to="/#jumpTop"  activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"  exact>Welcome</NavLink></li>
-                                        <li className="nav-item mx-0 mx-lg-1" data-toggle="collapse" data-target="#navbarResponsive"><NavLink  to="/portfolio#portfolio"  activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"  exact>Portfolio</NavLink></li>
-                                        <li className="nav-item mx-0 mx-lg-1" data-toggle="collapse" data-target="#navbarResponsive"><NavLink  to="/about#about"  activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"  exact>About</NavLink></li>
+                                        <li className="nav-item mx-0 mx-lg-1" data-toggle="collapse" data-target="#navbarResponsive"><NavHashLink  to="/#jumpTop"  activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"  exact>Welcome</NavHashLink></li>
+                                        <li className="nav-item mx-0 mx-lg-1" data-toggle="collapse" data-target="#navbarResponsive"><NavHashLink  to="/portfolio#portfolio"  activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"  exact>Portfolio</NavHashLink></li>
+                                        <li className="nav-item mx-0 mx-lg-1" data-toggle="collapse" data-target="#navbarResponsive"><NavHashLink  to="/about#about"  activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"  exact>About</NavHashLink></li>
                                       
                                 </ul>
                         </div>
