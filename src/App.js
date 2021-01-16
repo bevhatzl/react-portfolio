@@ -6,7 +6,6 @@ import Welcome from './components/Welcome/Welcome';
 import Footer from './components/Footer/Footer';
 import Portfolio from './components/Portfolio/Portfolio';
 import About from './components/About/About';
-// import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (

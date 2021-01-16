@@ -63,44 +63,44 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <section class="page-section portfolio" id="portfolio">
-                <div class="container">
-                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                    <div class="divider-custom">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                        <div class="divider-custom-line"></div>
+            <section className="page-section portfolio" id="portfolio">
+                <div className="container">
+                    <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                    <div className="divider-custom">
+                        <div className="divider-custom-line"></div>
+                        <div className="divider-custom-icon"><i class="fas fa-star"></i></div>
+                        <div className="divider-custom-line"></div>
                     </div>
                     
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                    <div className="row">
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                                 <Project data={this.state.data.projects[0].obj1} />
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2"></div>
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2"></div>
                             <Project data={this.state.data.projects[0].obj2} />
                         </div>
 
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3"></div>
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3"></div>
                             <Project data={this.state.data.projects[0].obj3} />
                         </div>
 
-                        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4"></div>
+                        <div className="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4"></div>
                             <Project data={this.state.data.projects[0].obj4} />
                         </div>
 
-                        <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5"></div>
+                        <div className="col-md-6 col-lg-4 mb-5 mb-md-0">
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5"></div>
                             <Project data={this.state.data.projects[0].obj5} />
                         </div>
 
-                        <div class="col-md-6 col-lg-4">
-                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6"></div>
+                        <div className="col-md-6 col-lg-4">
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6"></div>
                             <Project data={this.state.data.projects[0].obj6} />
                         </div>
                     </div>

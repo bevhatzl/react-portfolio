@@ -5,24 +5,24 @@ import {NavLink} from 'react-router-dom';
 // Display the nav bar and heading
 function Header () {
     return (
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Beverley Hatzl - Web Developer</a>
+        <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div className="container">
+            <a className="navbar-brand js-scroll-trigger" href="/">Beverley Hatzl - Web Developer</a>
             <button
-                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 Menu
-                <i class="fas fa-bars"></i>
+                <i className="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div className="collapse navbar-collapse" id="navbarResponsive">
 
-            <ul class="navbar-nav ml-auto">
+            <ul className="navbar-nav ml-auto">
                     <li className="nav-item mx-0 mx-lg-1"><NavLink activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected" to="/portfolio" exact
                             >Portfolio</NavLink></li>
                     <li className="nav-item mx-0 mx-lg-1"><NavLink activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"
                             to="/about" exact>About</NavLink></li>
-                    <li class="nav-item mx-0 mx-lg-1"><NavLink activeClassName="selected" class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"
+                    <li className="nav-item mx-0 mx-lg-1"><NavLink activeClassName="selected" className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger not-selected"
                             to="/" exact>Welcome</NavLink></li>
                 </ul>
 

@@ -15,6 +15,7 @@ function Project(props) {
                             See it on GitHub
                             <a href={props.data.github} target="_blank" className="project-link">here.</a> 
                         </div>
+                    
                     </div>
                     <img className="img-fluid" src={props.data.image} alt="Screenshot of app" />
               </div>
