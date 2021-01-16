@@ -10263,7 +10263,7 @@ form .row:first-child .floating-label-form-group {
   font-size: 0.9rem;
 }
 
-#strongEmail, #strongFont {
+#strongEmail, #strongFont, #caption-port {
   font-weight: 400;
 }
 

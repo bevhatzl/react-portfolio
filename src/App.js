@@ -10,17 +10,13 @@ import About from './components/About/About';
 function App() {
   return (
     <BrowserRouter>
-
         <Header className="App-header"></Header>
-
         <Switch>
           <Route exact path="/" component={Welcome}/>
           <Route exact path="/Portfolio" component={Portfolio}/>
           <Route exact path="/About" component={About}/>
-        </Switch>
-        
+        </Switch>        
         <Footer></Footer>
-
     </BrowserRouter>
   );
 }

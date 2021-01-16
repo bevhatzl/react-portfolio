@@ -30,7 +30,7 @@ function About () {
                 </div>
                 <div className="col-lg-4 mr-auto">
                     <p className="lead" id="strongFont">I am proficient with HTML, CSS, JavaScript, jQuery, Bootstrap, Git, Node,
-                        Express.js, SQL, MongoDB, ORMs, ODMs and React.
+                        Express.js, SQL, MongoDB, ORMs, ODMs and React. This portfolio was built using React!
 
                         Check out my projects in the Portfolio and feel free to get in touch with me. You can view my
                         resume <a
