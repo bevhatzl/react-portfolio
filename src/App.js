@@ -11,11 +11,13 @@ function App() {
   return (
     <HashRouter>
         <Header className="App-header"></Header>
-        <Switch>
+
+        <Route exact path="/" component={Welcome}/>
+        {/* <Switch>
           <Route exact path="/" component={Welcome}/>
           <Route exact path="/portfolio" component={Portfolio}/>
           <Route exact path="/about" component={About}/>
-        </Switch>        
+        </Switch>         */}
         <Footer></Footer>
     </HashRouter>
   );
