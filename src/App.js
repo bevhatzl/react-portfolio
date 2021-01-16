@@ -13,9 +13,9 @@ function App() {
         <Header className="App-header"></Header>
         <Switch>
           <Route exact path="/" component={App}/>
-          <Route exact path="/Welcome" component={Welcome}/>
-          <Route exact path="/Portfolio" component={Portfolio}/>
-          <Route exact path="/About" component={About}/>
+          <Route exact path="/welcome" component={Welcome}/>
+          <Route exact path="/portfolio" component={Portfolio}/>
+          <Route exact path="/about" component={About}/>
         </Switch>        
         <Footer></Footer>
     </HashRouter>
