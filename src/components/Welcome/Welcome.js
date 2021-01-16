@@ -1,4 +1,5 @@
 import React from "react";
+import avatar from '../../assets/avatar.jpeg';
 // import "./style.css";
 
 // Display the Welcome screen
@@ -7,7 +8,7 @@ function Welcome () {
         <div class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
 
-            <img class="masthead-avatar mb-5" src="../../../public/images/avatar.jpeg" alt="photo of me" />
+            <img class="masthead-avatar mb-5" src={avatar} alt="photo of me" />
 
             <h1 class="masthead-heading text-uppercase mb-0">Welcome!</h1>
    

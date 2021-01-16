@@ -1,10 +1,8 @@
 import React from 'react';
-// import Portfolio from '../Portfolio/Portfolio';
 
 
 function Project(props) {
-    
-
+        
         return (
                 <div>
                     <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
