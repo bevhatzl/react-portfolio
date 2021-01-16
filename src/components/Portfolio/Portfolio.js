@@ -73,35 +73,43 @@ class Portfolio extends Component {
                     </div>
                     
                     <div className="row">
+
                         <div className="col-md-6 col-lg-4 mb-5">
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                                 <Project data={this.state.data.projects[0].obj1} />
+                                <img className="img-fluid" src={this.state.data.projects[0].obj1.image} alt="Screenshot of app" />
                             </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2"></div>
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">       
                             <Project data={this.state.data.projects[0].obj2} />
+                            <img className="img-fluid" src={this.state.data.projects[0].obj2.image} alt="Screenshot of app" />
+                            </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4 mb-5">
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3"></div>
                             <Project data={this.state.data.projects[0].obj3} />
+                            <img className="img-fluid" src={this.state.data.projects[0].obj3.image} alt="Screenshot of app" />
                         </div>
 
-                        <div className="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div className="col-md-6 col-lg-4 mb-5">
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4"></div>
                             <Project data={this.state.data.projects[0].obj4} />
+                            <img className="img-fluid" src={this.state.data.projects[0].obj4.image} alt="Screenshot of app" />
                         </div>
 
-                        <div className="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div className="col-md-6 col-lg-4 mb-5">
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5"></div>
                             <Project data={this.state.data.projects[0].obj5} />
+                            <img className="img-fluid" src={this.state.data.projects[0].obj5.image} alt="Screenshot of app" />
                         </div>
 
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-6 col-lg-4 mb-5">
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6"></div>
                             <Project data={this.state.data.projects[0].obj6} />
+                            <img className="img-fluid" src={this.state.data.projects[0].obj6.image} alt="Screenshot of app" />
                         </div>
                     </div>
                 </div>
