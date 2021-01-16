@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {HashRouter, Switch, Route} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Welcome from './components/Welcome/Welcome';
 import Footer from './components/Footer/Footer';

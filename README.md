@@ -1,7 +1,7 @@
 # React Portfolio
 
 This is my portfolio created using React.
-The link to the deployed site is here: 
+The link to the deployed site is here: https://bevhatzl.github.io/react-portfolio/
 
 # Table of Contents
 * [Instructions](#instructions)
@@ -22,9 +22,11 @@ The link to the deployed site is here:
 
 ## Screenshots
 
-![Screenshot of initial display with all employees sorted alphabetically](./public/images/image1.JPG)
+![Screenshot of Welcome screen](./src/assets/image1.JPG)
 
-![Screenshot of filtered employee data after text is input](./public/images/image2.JPG)
+![Screenshot of About page](./src/assets/image2.JPG)
+
+![Screenshot of Portfolio page](./src/assets/image2.JPG)
 
 ## Future Development
 <p>Future versions will have my updated projects.</p>
