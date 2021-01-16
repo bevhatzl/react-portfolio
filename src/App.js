@@ -12,12 +12,12 @@ function App() {
     <HashRouter>
         <Header className="App-header"></Header>
 
-        <Route exact path="/" component={Welcome}/>
-        {/* <Switch>
+        <Switch>
           <Route exact path="/" component={Welcome}/>
           <Route exact path="/portfolio" component={Portfolio}/>
           <Route exact path="/about" component={About}/>
-        </Switch>         */}
+        </Switch>        
+        
         <Footer></Footer>
     </HashRouter>
   );

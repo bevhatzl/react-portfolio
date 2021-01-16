@@ -1,7 +1,7 @@
 # React Portfolio
 
 This is my portfolio created using React.
-The link to the deployed site is here: https://bevhatzl.github.io/react-portfolio/
+The link to the deployed site is here: https://bevhatzl.github.io/react-portfolio/#/
 
 # Table of Contents
 * [Instructions](#instructions)
