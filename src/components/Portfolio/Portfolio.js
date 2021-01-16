@@ -89,27 +89,31 @@ class Portfolio extends Component {
                         </div>
 
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3"></div>
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                             <Project data={this.state.data.projects[0].obj3} />
                             <img className="img-fluid" src={this.state.data.projects[0].obj3.image} alt="Screenshot of app" />
+                            </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4"></div>
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                             <Project data={this.state.data.projects[0].obj4} />
                             <img className="img-fluid" src={this.state.data.projects[0].obj4.image} alt="Screenshot of app" />
+                            </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5"></div>
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                             <Project data={this.state.data.projects[0].obj5} />
                             <img className="img-fluid" src={this.state.data.projects[0].obj5.image} alt="Screenshot of app" />
+                            </div>
                         </div>
 
                         <div className="col-md-6 col-lg-4 mb-5">
-                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6"></div>
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                             <Project data={this.state.data.projects[0].obj6} />
                             <img className="img-fluid" src={this.state.data.projects[0].obj6.image} alt="Screenshot of app" />
+                            </div>
                         </div>
                     </div>
                 </div>
