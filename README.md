@@ -2,6 +2,7 @@
 
 This is my portfolio created using React.
 The link to the deployed site is here: https://bevhatzl.github.io/react-portfolio/#/
+I used react-router-hash-link to allow scroll to top of page when clicking links.
 
 # Table of Contents
 * [Instructions](#instructions)
@@ -22,11 +23,11 @@ The link to the deployed site is here: https://bevhatzl.github.io/react-portfoli
 
 ## Screenshots
 
-![Screenshot of Welcome screen](./src/assets/image1.JPG)
+![Screenshot of Welcome screen](./src/assets/image1.jpeg)
 
-![Screenshot of About page](./src/assets/image2.JPG)
+![Screenshot of About page](./src/assets/image2.jpeg)
 
-![Screenshot of Portfolio page](./src/assets/image2.JPG)
+![Screenshot of Portfolio page](./src/assets/image3.jpeg)
 
 ## Future Development
 <p>Future versions will have my updated projects.</p>

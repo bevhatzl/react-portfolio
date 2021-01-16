@@ -6,7 +6,6 @@ import wot2watch from '../../assets/wot2watch.png';
 import hotel from '../../assets/PacificPoint.png';
 import scheduler from '../../assets/scheduler.png';
 import quiz from '../../assets/quiz.png';
-// import "./style.css";
 
 // Portfolio
 class Portfolio extends Component {
@@ -65,6 +64,7 @@ class Portfolio extends Component {
         return (
             <section className="page-section portfolio" id="portfolio">
                 <div className="container">
+                <br /><br />
                     <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
                     <div className="divider-custom">
                         <div className="divider-custom-line"></div>
@@ -118,7 +118,6 @@ class Portfolio extends Component {
                     </div>
                 </div>
             </section>
-
         )
     }
 

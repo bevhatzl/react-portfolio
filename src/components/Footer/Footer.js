@@ -1,13 +1,11 @@
 import React from "react";
-// import "./style.css";
 
 // Display contact details
 function Footer () {
     return (
         <footer className="footer text-center" id="footer">
         <div className="container">
-            <div className="row">
-            
+            <div className="row">            
                 <div className="col-lg-4 mb-5 mb-lg-0">
                     <h4 className="text-uppercase mb-4">Location</h4>
                     <p className="lead mb-0">
@@ -15,8 +13,7 @@ function Footer () {
                         <br />
                         Australia
                     </p>
-                </div>
-             
+                </div>             
                 <div className="col-lg-4 mb-5 mb-lg-0">
                     <h4 className="text-uppercase mb-4">Around the Web</h4>
                     <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/bevhatzl"

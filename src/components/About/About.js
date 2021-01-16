@@ -1,20 +1,17 @@
 import React from "react";
-// import "./style.css";
 
 // About Me
 function About () {
     return (
         <section className="page-section bg-primary text-white mb-0" id="about">
         <div className="container">
-        
-            <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
-           
+            <br /><br />
+            <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>           
             <div className="divider-custom divider-light">
                 <div className="divider-custom-line"></div>
                 <div className="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div className="divider-custom-line"></div>
-            </div>
-          
+            </div>          
             <div className="row">
                 <div className="col-lg-4 ml-auto">
                     <p className="lead" id="strongFont">

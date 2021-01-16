@@ -2,8 +2,6 @@ import React from "react";
 import {HashRouter, NavLink, Link} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
-// import "./style.css";
-
 // Display the nav bar and heading
 function Header () {
     return (
