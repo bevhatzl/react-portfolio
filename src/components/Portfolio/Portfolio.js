@@ -63,7 +63,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <section className="page-section portfolio jumpTop" id="portfolio">
+            <section className="page-section portfolio" id="portfolio">
                 <div className="container">
                     <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
                     <div className="divider-custom">

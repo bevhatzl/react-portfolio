@@ -4,7 +4,7 @@ import avatar from '../../assets/avatar.jpeg';
 // Display the Welcome screen
 function Welcome () {
     return (
-        <div className="masthead bg-primary text-white text-center jumpTop">
+        <div className="masthead bg-primary text-white text-center" id="jumpTop">
             <div className="container d-flex align-items-center flex-column">
                 <img className="masthead-avatar mb-5" src={avatar} alt="photo of me" />
                 <h1 className="masthead-heading text-uppercase mb-0">Welcome!</h1>

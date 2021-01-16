@@ -4,7 +4,7 @@ import React from "react";
 // About Me
 function About () {
     return (
-        <section className="page-section bg-primary text-white mb-0 jumpTop" id="about">
+        <section className="page-section bg-primary text-white mb-0" id="about">
         <div className="container">
         
             <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
