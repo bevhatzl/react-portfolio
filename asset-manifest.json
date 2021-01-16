@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.21c00ca4.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.21c00ca4.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.8fdb765b.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.8fdb765b.js.map",
-    "static/js/2.84cf90ae.chunk.js": "/react-portfolio/static/js/2.84cf90ae.chunk.js",
-    "static/js/2.84cf90ae.chunk.js.map": "/react-portfolio/static/js/2.84cf90ae.chunk.js.map",
-    "static/js/3.ebd2ce36.chunk.js": "/react-portfolio/static/js/3.ebd2ce36.chunk.js",
-    "static/js/3.ebd2ce36.chunk.js.map": "/react-portfolio/static/js/3.ebd2ce36.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.8f72352e.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8f72352e.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.b547a3ce.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b547a3ce.js.map",
+    "static/js/2.fd2fc77d.chunk.js": "/react-portfolio/static/js/2.fd2fc77d.chunk.js",
+    "static/js/2.fd2fc77d.chunk.js.map": "/react-portfolio/static/js/2.fd2fc77d.chunk.js.map",
+    "static/js/3.74433d01.chunk.js": "/react-portfolio/static/js/3.74433d01.chunk.js",
+    "static/js/3.74433d01.chunk.js.map": "/react-portfolio/static/js/3.74433d01.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/react-portfolio/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.84cf90ae.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.84cf90ae.chunk.js.LICENSE.txt",
+    "static/js/2.fd2fc77d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.fd2fc77d.chunk.js.LICENSE.txt",
     "static/media/PacificPoint.2a9cbc50.png": "/react-portfolio/static/media/PacificPoint.2a9cbc50.png",
     "static/media/avatar.dbe265a1.jpeg": "/react-portfolio/static/media/avatar.dbe265a1.jpeg",
     "static/media/burger.c3b03e2e.png": "/react-portfolio/static/media/burger.c3b03e2e.png",
@@ -21,9 +21,9 @@
     "static/media/wot2watch.259dc359.png": "/react-portfolio/static/media/wot2watch.259dc359.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8fdb765b.js",
-    "static/js/2.84cf90ae.chunk.js",
+    "static/js/runtime-main.b547a3ce.js",
+    "static/js/2.fd2fc77d.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.21c00ca4.chunk.js"
+    "static/js/main.8f72352e.chunk.js"
   ]
 }
