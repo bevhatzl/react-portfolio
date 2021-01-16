@@ -9,7 +9,7 @@ import About from './components/About/About';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Header className="App-header"></Header>
 
         <Switch>
@@ -19,7 +19,7 @@ function App() {
         </Switch>        
 
         <Footer></Footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
