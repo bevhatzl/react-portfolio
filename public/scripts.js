@@ -28,7 +28,7 @@
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function () {
       $('.navbar-collapse').collapse('hide');
-      alert('Scroll to top');
+      console.log('Scroll to top');
       window.scrollTo(0, 0);
     });
   
