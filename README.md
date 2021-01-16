@@ -23,11 +23,11 @@ I used react-router-hash-link to allow scroll to top of page when clicking links
 
 ## Screenshots
 
-![Screenshot of Welcome screen](./src/assets/image1.jpg)
+![Screenshot of Welcome screen](./src/assets/image1.JPG)
 
-![Screenshot of About page](./src/assets/image2.jpg)
+![Screenshot of About page](./src/assets/image2.JPG)
 
-![Screenshot of Portfolio page](./src/assets/image3.jpg)
+![Screenshot of Portfolio page](./src/assets/image3.JPG)
 
 ## Future Development
 <p>Future versions will have my updated projects.</p>
