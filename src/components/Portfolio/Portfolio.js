@@ -6,6 +6,7 @@ import wot2watch from '../../assets/wot2watch.png';
 import hotel from '../../assets/PacificPoint.png';
 import scheduler from '../../assets/scheduler.png';
 import quiz from '../../assets/quiz.png';
+import resGuide from '../../assets/res-guide.JPG';
 
 // Portfolio
 class Portfolio extends Component {
@@ -55,6 +56,13 @@ class Portfolio extends Component {
                         github: 'https://github.com/bevhatzl/code-quiz',
                         image: quiz
                     },
+                    obj7: {
+                        title: 'Reservations Guide',
+                        text: 'App created with the MERN stack allowing hotels to login and post details of blacklisted guests as well as alerts. Hotels can also lookup potential guests to check if they have been blacklisted at other hotels.',
+                        deployed: 'https://glacial-woodland-70883.herokuapp.com/',
+                        github: 'https://github.com/bevhatzl/reservations-guide',
+                        image: resGuide
+                    }
                 }
             ]
         }
@@ -113,6 +121,13 @@ class Portfolio extends Component {
                             <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                             <Project data={this.state.data.projects[0].obj6} />
                             <img className="img-fluid" src={this.state.data.projects[0].obj6.image} alt="Screenshot of app" />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-lg-4 mb-5">
+                            <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <Project data={this.state.data.projects[0].obj7} />
+                            <img className="img-fluid" src={this.state.data.projects[0].obj7.image} alt="Screenshot of app" />
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ function Project(props) {
                 <div className="portfolio-item-caption-content text-center text-white" id="caption-port">
                     <strong>{props.data.title}</strong> <br />
                     {props.data.text} 
-                    <br />Deployed on heroku{" "}
+                    <br />Deployed {" "}
                     <a href={props.data.deployed} target="_blank" className="project-link">here.</a>  
                     <br />
                     See it on GitHub{" "}
