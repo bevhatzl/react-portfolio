@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.9528e5fe.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.9528e5fe.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.1b7f3b69.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.1b7f3b69.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.b547a3ce.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b547a3ce.js.map",
     "static/js/2.7b24aab1.chunk.js": "/react-portfolio/static/js/2.7b24aab1.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/avatar.dbe265a1.jpeg": "/react-portfolio/static/media/avatar.dbe265a1.jpeg",
     "static/media/burger.c3b03e2e.png": "/react-portfolio/static/media/burger.c3b03e2e.png",
     "static/media/quiz.5bdf0fb9.png": "/react-portfolio/static/media/quiz.5bdf0fb9.png",
-    "static/media/res-guide.6a8bbe61.JPG": "/react-portfolio/static/media/res-guide.6a8bbe61.JPG",
+    "static/media/res-guide.bea5fbdf.JPG": "/react-portfolio/static/media/res-guide.bea5fbdf.JPG",
     "static/media/scheduler.ef88da69.png": "/react-portfolio/static/media/scheduler.ef88da69.png",
     "static/media/weather.3dcf04b1.png": "/react-portfolio/static/media/weather.3dcf04b1.png",
     "static/media/wot2watch.259dc359.png": "/react-portfolio/static/media/wot2watch.259dc359.png"
@@ -25,6 +25,6 @@
     "static/js/runtime-main.b547a3ce.js",
     "static/js/2.7b24aab1.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.9528e5fe.chunk.js"
+    "static/js/main.1b7f3b69.chunk.js"
   ]
 }
