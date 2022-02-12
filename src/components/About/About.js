@@ -15,7 +15,7 @@ function About () {
             <div className="row">
                 <div className="col-lg-4 ml-auto">
                     <p className="lead" id="strongFont">
-                        I have completed the ​Full Stack Coding Boot Camp at University of Sydney. I enjoy both Back End or Front End Web.​ I first started a
+                        I have completed the ​Full Stack Coding Boot Camp at University of Sydney and I enjoy both Back End or Front End Web.​ I first started a
                         passion for programming while studying for my Bachelor of Business in the past. Now most recently I have started self study to learn Web Development with the aim to become a full stack engineer. 
                     </p>
                 </div>
