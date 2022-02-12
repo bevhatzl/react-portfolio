@@ -13,7 +13,7 @@ function Welcome () {
                     <div className="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div className="divider-custom-line"></div>
                 </div>
-                <p className="masthead-subheading mb-0">Hi, I'm Beverley Hatzl. I'm a Junior Web Developer,
+                <p className="masthead-subheading mb-0">Hi, I'm Beverley Hatzl. I'm a Web Developer,
                 based in Sydney.</p>
             </div>
         </div>
