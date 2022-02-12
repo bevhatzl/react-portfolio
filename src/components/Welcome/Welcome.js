@@ -14,7 +14,7 @@ function Welcome () {
                     <div className="divider-custom-line"></div>
                 </div>
                 <p className="masthead-subheading mb-0">Hi, I'm Beverley Hatzl. I'm a Junior Web Developer,
-                based in Sydney, seeking my first dev job.</p>
+                based in Sydney.</p>
             </div>
         </div>
     )
