@@ -33,4 +33,4 @@ I used react-router-hash-link to allow scroll to top of page when clicking links
 <p>Future versions will have my updated projects.</p>
 
 ## Author
-Beverley Hatzl 2021
+Beverley Hatzl 2022
